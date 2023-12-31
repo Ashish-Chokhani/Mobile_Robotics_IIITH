@@ -4,7 +4,7 @@
 
 ## Section 1: Transformations and Representations
 - Euler Angles
-<br/ >
+<br />
 a. Rotation Matrix from Euler Angles
 In the transformations.py module, you can find a Python function named euler_to_rotation_matrix(alpha, beta, gamma) that computes a rotation matrix using Euler angles (𝛼, 𝛽, 𝛾) = (π/6, 7π/18, 2π/9) in radians with the X-Y-Z convention. No inbuilt functions are used to ensure transparency and understanding.
 

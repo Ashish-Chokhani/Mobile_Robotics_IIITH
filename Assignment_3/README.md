@@ -34,18 +34,23 @@
 pip install evo --upgrade --no-binary evo
 evo_traj kitti ground-truth.txt your-result.txt -va --plot --plot_mode xz
 ```
-Outputs
-A .txt file containing the estimated poses.
-A plot of the estimated trajectory along with the ground truth trajectory using EVO.
-Report the obtained trajectory error.
-Section 3: Stereo Dense Reconstruction
-Dense 3D Point Cloud Reconstruction from Stereo Images
-Procedure
-Download required data from data/3, which includes left and right stereo images, ground truth poses, and camera parameters.
-Generate a disparity map for all given stereo pairs using OpenCV (e.g., StereoSGBM).
-Generate colored point clouds from each disparity map, ignoring points with invalid disparity values. Use Open3D for storing point clouds.
-Register (or transform) all generated point clouds into the world frame using the provided ground truth poses.
-Visualize the registered point cloud data in color using Open3D.
-Outputs
-Visualized dense 3D point cloud reconstruction in color.
+
+### Outputs
+- A .txt file containing the estimated poses.
+- A plot of the estimated trajectory along with the ground truth trajectory using EVO.
+- Report the obtained trajectory error.
+
+## Section 3: Stereo Dense Reconstruction
+### Dense 3D Point Cloud Reconstruction from Stereo Images
+
+- Download required data from data/3, which includes left and right stereo images, ground truth poses, and camera parameters.
+- Generate a disparity map for all given stereo pairs using OpenCV (e.g., StereoSGBM).
+- Generate colored point clouds from each disparity map, ignoring points with invalid disparity values. Use Open3D for storing point clouds.
+- Register (or transform) all generated point clouds into the world frame using the provided ground truth poses.
+- Visualize the registered point cloud data in color using Open3D.
+
+### Outputs
+- Visualized dense 3D point cloud reconstruction in color.
+
+<br />
 Note: Detailed implementation and usage instructions are available within each script and notebook. Ensure that dependencies are installed before running the provided commands.

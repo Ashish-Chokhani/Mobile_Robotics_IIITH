@@ -37,6 +37,6 @@ university press.
 Please refer to the [course information](https://www.notion.so/Mobile-Robotics-2023-19d124ffa46445b5a306178f4c6c8057) document for more resources.
 
 ## Assignments
-[Assignment - 1: Transformations and Representations](assignments/assignment-1.pdf) <br>
+[Assignment - 1: Transformations and Representations](https://github.com/Ashish-Chokhani/Mobile_Robotics_IIITH/blob/main/Assignment_1/Assignment1.ipynb) <br>
 [Assignment - 2: Levenberg Marquardt, ICP, and Pose Graph Optimization](assignments/assignment-2.pdf) <br>
 [Assignment - 3:  Epipolar Geometry, Monocular Visual Odometry, and Stereo Dense Reconstruction](assignments/assignment-3.pdf) <br>

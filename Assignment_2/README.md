@@ -27,3 +27,16 @@
 - In the icp_alignment.py module, a function is provided to perform Procrustes alignment on two point clouds with known correspondences.
 - Using the toothless.ply point cloud, the task is to align two point clouds (X & P1, X & P2) and recover the transformation between them.
 - The alignment error is computed using Root Mean Squared Error (RSME).
+
+## Section 3: Pose Graph Optimization
+1. Pose Graph Optimization for 1D SLAM
+- Replicate a solved example for 1D SLAM, optimizing for pose using least squares.
+- Refer to the notebook parts/Part 1 - 1D SLAM.ipynb for detailed information and solution.
+
+2. Pose Graph Optimization for 2D SLAM
+- Optimize a sample noisy trajectory using pose-graph optimization.
+- Refer to the notebook parts/Part 2 - 2D SLAM.ipynb for detailed information on LM implementation, plots and explanation, and Jacobian and Residual Calculation.
+
+3. Trajectory Evaluation and g2o (Bonus Question)
+- Evaluate the optimized trajectory using Evo and explore the g2o tool to obtain an even better-optimized trajectory.
+- Refer to the notebook parts/Part 3 - Trajectory Evaluation and g2o.ipynb for detailed instructions and insights.

@@ -1,6 +1,6 @@
 # Mobile Robotics
 
-Material from the CSE478 mobile robotics course offered at IIIT Hyderabad in Monsoon 2019.
+Material from the CSE478 mobile robotics course offered at IIIT Hyderabad in Monsoon 2023.
 
 ## Course information
 
@@ -40,9 +40,3 @@ Please refer to the [course information](https://www.notion.so/Mobile-Robotics-2
 [Assignment - 1: Transformations and Representations](assignments/assignment-1.pdf) <br>
 [Assignment - 2: Levenberg Marquardt, ICP, and Pose Graph Optimization](assignments/assignment-2.pdf) <br>
 [Assignment - 3:  Epipolar Geometry, Monocular Visual Odometry, and Stereo Dense Reconstruction](assignments/assignment-3.pdf) <br>
-
-## Exams
-
-[Mid-semester exam](exams/mid-sem-qp.pdf) <br>
-[End-semester exam](exams/end-sem-qp.pdf)
-

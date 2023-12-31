@@ -1,2 +1,42 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/8YstUiHk)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12723921&assignment_repo_type=AssignmentRepo)
+
+Section 1: Epipolar lines and Epipoles
+Fundamental Matrix Estimation and Epipolar Lines
+In the epipolar_lines.py script, you'll find an implementation to estimate the fundamental matrix (F) that encodes the relative geometry of two images. The fundamental matrix is computed without using inbuilt functions. Epipolar lines are drawn on both images for the given point correspondences.
+
+Procedure
+Compute the fundamental matrix (F) using the provided point correspondences.
+Draw epipolar lines on the second image for each point in the first image.
+Draw epipolar lines on the first image for the corresponding points in the second image.
+Implementation Details
+The convention used for F is [F] = [p'] * [p], where p is the location of the point in the first image, and p' is the location of the point in the second image.
+Fundamental matrix (F) is computed without using inbuilt functions.
+Section 2: Monocular Visual Odometry
+Implementation of Basic Monocular Visual Odometry
+Procedure
+Download required data from data/2, which includes a sequence of images from the KITTI dataset, ground truth pose, and camera parameters.
+Find corresponding features between frames and estimate the essential matrix using RANSAC.
+Decompose the essential matrix to obtain the relative rotation.
+Scale the translation with absolute or relative scale.
+Concatenate the relative transformation.
+Repeat the above steps for the remaining pairs of frames.
+Generate a .txt file containing the estimated poses in the same format as the ground truth.
+Plot the estimated trajectory along with the ground truth trajectory using EVO.
+bash
+Copy code
+pip install evo --upgrade --no-binary evo
+evo_traj kitti ground-truth.txt your-result.txt -va --plot --plot_mode xz
+Outputs
+A .txt file containing the estimated poses.
+A plot of the estimated trajectory along with the ground truth trajectory using EVO.
+Report the obtained trajectory error.
+Section 3: Stereo Dense Reconstruction
+Dense 3D Point Cloud Reconstruction from Stereo Images
+Procedure
+Download required data from data/3, which includes left and right stereo images, ground truth poses, and camera parameters.
+Generate a disparity map for all given stereo pairs using OpenCV (e.g., StereoSGBM).
+Generate colored point clouds from each disparity map, ignoring points with invalid disparity values. Use Open3D for storing point clouds.
+Register (or transform) all generated point clouds into the world frame using the provided ground truth poses.
+Visualize the registered point cloud data in color using Open3D.
+Outputs
+Visualized dense 3D point cloud reconstruction in color.
+Note: Detailed implementation and usage instructions are available within each script and notebook. Ensure that dependencies are installed before running the provided commands.

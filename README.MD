@@ -38,5 +38,5 @@ Please refer to the [course information](https://www.notion.so/Mobile-Robotics-2
 
 ## Assignments
 [Assignment - 1: Transformations and Representations](https://github.com/Ashish-Chokhani/Mobile_Robotics_IIITH/blob/main/Assignment_1/Assignment1.ipynb) <br>
-[Assignment - 2: Levenberg Marquardt, ICP, and Pose Graph Optimization](assignments/assignment-2.pdf) <br>
+[Assignment - 2: Levenberg Marquardt, ICP, and Pose Graph Optimization](https://github.com/Ashish-Chokhani/Mobile_Robotics_IIITH/blob/main/Assignment_2/Assignment2.ipynb) <br>
 [Assignment - 3:  Epipolar Geometry, Monocular Visual Odometry, and Stereo Dense Reconstruction](assignments/assignment-3.pdf) <br>

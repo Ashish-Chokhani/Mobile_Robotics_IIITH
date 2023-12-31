@@ -20,15 +20,15 @@ c. Gimbal Lock Visualization
 -  The animation showcases rotations along each axis one by one.
 
 ### Quaternions
-- a. Conversion between Rotation Matrix and Quaternion
+a. Conversion between Rotation Matrix and Quaternion
 - Within transformations.py, you will find functions to convert a rotation matrix to a quaternion (rotation_matrix_to_quaternion) and vice versa (quaternion_to_rotation_matrix).
 - These functions are implemented without relying on inbuilt libraries.
 
-- b. Matrix Multiplication and Quaternion Transformation
+b. Matrix Multiplication and Quaternion Transformation
 - Explore the script matrix_quaternion_comparison.py to witness the comparison between matrix multiplication of two 3x3 rotation matrices and the transformation in the quaternion space.
 - This ensures the consistency of the final transformations.
 
-- c. Quaternion Interpolation
+c. Quaternion Interpolation
 - To visualize quaternion interpolation, run the script quaternion_interpolation.py. This script interpolates a given model between two rotation matrices using quaternions, providing a clear visualization of the interpolation process.
 
 ### Waypoint Generation and Trajectory Visualization

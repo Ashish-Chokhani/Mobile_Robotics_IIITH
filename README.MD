@@ -37,11 +37,9 @@ university press.
 Please refer to the [course information](https://www.notion.so/Mobile-Robotics-2023-19d124ffa46445b5a306178f4c6c8057) document for more resources.
 
 ## Assignments
-[Assignment - 1: Camera modelling and DLT](assignments/assignment-1.pdf) <br>
-[Assignment - 2: Monocular visual odometry](assignments/assignment-2.pdf) <br>
-[Assignment - 3: Stereo reconstruction and iterative PnP](assignments/assignment-3.pdf) <br>
-[Assignment - 4: Localization using EKF](assignments/assignment-4.pdf) <br>
-[Assignment - 5: Polynomial trajectory planning](assignments/assignment-5.pdf) <br>
+[Assignment - 1: Transformations and Representations](assignments/assignment-1.pdf) <br>
+[Assignment - 2: Levenberg Marquardt, ICP, and Pose Graph Optimization](assignments/assignment-2.pdf) <br>
+[Assignment - 3:  Epipolar Geometry, Monocular Visual Odometry, and Stereo Dense Reconstruction](assignments/assignment-3.pdf) <br>
 
 ## Exams
 

@@ -34,7 +34,7 @@ university press.
 - Latombe, J. C. (2012). _Robot motion planning_ (Vol. 124). Springer Science & Business Media.
 
 
-Please refer to the [course information](course-info.pdf) document for more resources.
+Please refer to the [course information](https://www.notion.so/Mobile-Robotics-2023-19d124ffa46445b5a306178f4c6c8057) document for more resources.
 
 ## Assignments
 [Assignment - 1: Camera modelling and DLT](assignments/assignment-1.pdf) <br>

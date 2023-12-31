@@ -10,11 +10,11 @@ a. Rotation Matrix from Euler Angles
 - In the transformations.py module, you can find a Python function named euler_to_rotation_matrix(alpha, beta, gamma) that computes a rotation matrix using Euler angles (𝛼, 𝛽, 𝛾) = (π/6, 7π/18, 2π/9) in radians with the X-Y-Z convention.
 -  No inbuilt functions are used to ensure transparency and understanding.
 
-- b. Solving for Angles with fsolve
+b. Solving for Angles with fsolve
 - Explore the solve_angles.py script where we employ the fsolve function from scipy to solve for Euler angles.
 - The script provides three different initializations, and the results are compared for each initialization.
 
-- c. Gimbal Lock Visualization
+c. Gimbal Lock Visualization
 - To visualize Gimbal Lock, run the gimbal_lock_animation.py script.
 -  This script demonstrates the Gimbal Lock phenomenon on the point cloud provided in data/toothless.ply.
 -  The animation showcases rotations along each axis one by one.
